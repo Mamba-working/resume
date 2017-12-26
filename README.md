@@ -7,4 +7,4 @@
 ## 工作经历
 无
 
-**在线预览地址：[戳我](http://yittang.cn/moreProjects/)**
+**在线预览地址：[戳我]( https://mamba-working.github.io/resume/)**

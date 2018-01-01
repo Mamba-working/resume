@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+       <div class="name">
+           <label for="username">姓名：</label>
+           <input name="username" id="username" type="text" placeholder="用户名"> 
+       </div>
+       <div class="password">
+           <label for="password">密码：</label>
+           <input name="password" id="password" type="password">
+       </div>
+       <div class="sex">
+           <label>性别：</label>
+           <input name="sex" type="radio" value="男">男
+           <input name="sex" type="radio" value="女">女
+       </div>
+       <div class="love">
+        <label>取向：</label>
+        <input name="love" type="radio" value="男">男
+        <input name="love" type="radio" value="女">女
+    </div>
+    <div class="hobby">
+        <label>爱好：</label>
+        <input type="checkbox" name="hobby" value="dota">dota
+        <input type="checkbox" name="hobby" value="旅游">旅游
+        <input type="checkbox" name="hobby" value="宠物">宠物
+    </div>
+    <div class="comment">
+        <label>评论：</label>
+        <textarea name="comments" cols="50" rows="5" style= "overflow:hidden;resize:none;">
+          ddd
+        </textarea>
+    </div>
+    <div class="car">
+        <label>我的car：</label>
+        <select name="car">
+            <option value="demo1">demo1</option>
+            <option value="demo2">demo2</option>
+            <option value="demo3">demo3</option>
+            <option value="demo4">demo4</option>
+        </select>
+    </div>
+    </form>
+</body>
+</html>
